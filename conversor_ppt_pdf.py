@@ -27,7 +27,7 @@ def pptx_para_pdf_universal(caminho_pptx, caminho_pdf):
             
     elif sistema == "Linux":
         try:
-            # No Linux, usamos o comando 'soffice' ou 'libreoffice'
+            # No Linux troca para libreoffice
             comando = [
                 "libreoffice", 
                 "--headless", 

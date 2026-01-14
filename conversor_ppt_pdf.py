@@ -44,7 +44,7 @@ def pptx_para_pdf_universal(caminho_pptx, caminho_pdf):
         print(f"Sistema {sistema} não suportado nativamente por este script.")
 
 
-arquivo_entrada = "/home/matheusvasconcelos/Documentos/conversor/apresentacao.pptx"
+arquivo_entrada = "apresentacao.pptx"
 arquivo_saida = "resultado.pdf"
 
 if os.path.exists(arquivo_entrada):
